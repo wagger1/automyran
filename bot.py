@@ -14,17 +14,17 @@ app = Client(
 )
 
 gif = [
-    'https://te.legra.ph/file/a1b3d4a7b5fce249902f7.mp4',
-    'https://te.legra.ph/file/0c855143a4039108df602.mp4',
-    'https://te.legra.ph/file/d7f3f18a92e6f7add8fcd.mp4',
-    'https://te.legra.ph/file/9e334112ee3a4000c4164.mp4',
-    'https://te.legra.ph/file/652fc39ae6295272699c6.mp4',
-    'https://te.legra.ph/file/702ca8761c3fd9c1b91e8.mp4',
-    'https://te.legra.ph/file/a1b3d4a7b5fce249902f7.mp4',
-    'https://te.legra.ph/file/d7f3f18a92e6f7add8fcd.mp4',
-    'https://te.legra.ph/file/0c855143a4039108df602.mp4',
-    'https://te.legra.ph/file/9e334112ee3a4000c4164.mp4',
-    'https://te.legra.ph/file/702ca8761c3fd9c1b91e8.mp4'
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4',
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4',
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4',
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4',
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4',
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4',
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4',
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4',
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4',
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4',
+    'https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4'
 ]
 
 
@@ -55,8 +55,8 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♻️ Join For Movies", url="https://t.me/C1nemaCorner"),
-                        InlineKeyboardButton("💬 Owner", url="https://t.me/Hyper740")
+                        InlineKeyboardButton("♻️ Join For Movies", url="https://t.me/CxMaxxx"),
+                        InlineKeyboardButton("💬 Owner", url="http://t.me/sachusachuz")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/RequestAutoApprovalbot?startgroup")
                     ]
@@ -96,8 +96,8 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♻️ Join Movie Channel", url="https://t.me/C1nemaCorner"),
-                        InlineKeyboardButton("💬 Owner", url="https://t.me/Hyper740")
+                        InlineKeyboardButton("♻️ Join Movie Channel", url="https://t.me/CxMaxxx"),
+                        InlineKeyboardButton("💬 Owner", url="http://t.me/sachusachuz")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/RequestAutoApprovalbot?startgroup")
                     ]
