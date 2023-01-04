@@ -52,16 +52,6 @@ async def op(_, m :Message):
     try:
         await app.get_chat_member(cfg.CHID, m.from_user.id) 
         if m.chat.type == enums.ChatType.PRIVATE:
-            keyboard = InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("♻️ Join For Movies", url="https://t.me/CxMaxxx"),
-                        InlineKeyboardButton("💬 Owner", url="http://t.me/sachusachuz")
-                    ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/RequestAutoApprovalbot?startgroup")
-                    ]
-                ]
-            )
             add_user(m.from_user.id)
             await m.reply_photo("https://telegra.ph/file/d33bbfc36bcdf46cc5da1.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @Hyper740**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
